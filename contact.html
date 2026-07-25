@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact | Josh's Marketplace</title>
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <link rel="icon" type="image/png" href="images/favicon.png">
+</head>
+
+<body>
+
+<header class="navbar">
+    <a href="index.html" class="logo">
+        Josh's<span> Marketplace</span>
+    </a>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="web-services.html">Websites</a>
+        <a href="discord-services.html">Discord Bots</a>
+        <a href="contact.html" class="nav-contact active">Contact</a>
+    </nav>
+
+    <button class="menu-toggle">☰</button>
+</header>
+
+<main>
+
+<section class="page-hero contact-hero">
+
+    <p class="eyebrow">LET'S CONNECT</p>
+
+    <h1>
+        Have any idea?<br>
+        <span>Come Contact Me</span>
+    </h1>
+
+    <p>
+        Whether you need a website, a Discord bot, or something completely custom,
+        I would love to hear about your project.
+    </p>
+
+    <p class="disclaimer">
+    <strong>Disclaimer:</strong> I primarily work with Roblox or game-related projects. However, feel free to contact me about other ideas as well.
+</p>
+
+</section>
+
+<section class="contact-section section">
+
+<div class="contact-info">
+
+    <p class="eyebrow">GET IN TOUCH WITH ME</p>
+
+    <h2>Enhance your company with my services :]</h2>
+
+    <p>
+        Send me a message through any of the platforms below.
+        I usually respond as soon as possible.
+    </p>
+
+    <div class="contact-links">
+
+        <a href="https://discord.com/users/1530482552257646602"
+           target="_blank"
+           class="contact-link">
+
+            <span>◈</span>
+
+            <div>
+                <small>DISCORD</small>
+                <strong>jxshy1fff</strong>
+            </div>
+
+            <b>↗</b>
+
+        </a>
+
+        <a href="mailto:aviajeffyt@gmail.com"
+           class="contact-link">
+
+            <span>✉</span>
+
+            <div>
+                <small>EMAIL</small>
+                <strong>aviajeffyt@gmail.com</strong>
+            </div>
+
+            <b>↗</b>
+
+        </a>
+
+        <a href="https://instagram.com/robloxcabinready"
+           target="_blank"
+           class="contact-link">
+
+            <span>◎</span>
+
+            <div>
+                <small>INSTAGRAM</small>
+                <strong>@robloxcabinready</strong>
+            </div>
+
+            <b>↗</b>
+
+        </a>
+
+    </div>
+
+</div>
+
+<form class="contact-form" onsubmit="sendMessage(event)">
+
+    <label>Your Name</label>
+
+    <input
+        id="name"
+        type="text"
+        placeholder="John Doe"
+        required
+    >
+
+    <label>Your Email</label>
+
+    <input
+        id="email"
+        type="email"
+        placeholder="you@example.com"
+        required
+    >
+
+    <label>What can I help you with?</label>
+
+    <select id="service" required>
+        <option value="">Select a service</option>
+        <option>Website Development</option>
+        <option>Discord Bot Development</option>
+        <option>Custom Project</option>
+        <option>Other</option>
+    </select>
+
+    <label>Tell me about your project</label>
+
+    <textarea
+        id="message"
+        rows="6"
+        placeholder="Describe your project, what you need, and any details..."
+        required
+    ></textarea>
+
+    <button
+        type="submit"
+        class="button primary">
+        Send Message ↗
+    </button>
+
+    <p id="form-message"></p>
+
+</form>
+
+</section>
+
+</main>
+
+<footer>
+
+    <p>© 2026 Josh's Marketplace. All rights reserved.</p>
+
+    <p>Designed & developed by Josh's Marketplace (of course!).</p>
+
+</footer>
+
+<!-- EmailJS Library -->
+<script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+
+<!-- Your JavaScript -->
+<script src="js/script.js"></script>
+
+</body>
+</html>
