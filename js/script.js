@@ -1,7 +1,3 @@
-// ===============================
-// Mobile Menu
-// ===============================
-
 const menuButton = document.querySelector(".menu-toggle");
 const nav = document.querySelector("nav");
 
@@ -11,18 +7,9 @@ if (menuButton) {
   });
 }
 
-// ===============================
-// Initialize EmailJS
-// ===============================
-
 emailjs.init({
   publicKey: "0SBFDRL3fyyiKZdwz",
 });
-
-// ===============================
-// Contact Form
-// ===============================
-
 function sendMessage(event) {
   event.preventDefault();
 
