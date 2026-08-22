@@ -30,7 +30,7 @@ function sendMessage(event) {
     .send("service_kjzbsk9", "template_tlec5x7", params)
     .then(() => {
       message.style.color = "#4ade80";
-      message.textContent = "✅ Your message has been sent successfully to Josh Market's email! Please wait for a response. Thankyou for reaching out :)";
+      message.textContent = "✅ Your message has been sent successfully to Josh's email! Please wait for a response. Thankyou for reaching out :)";
 
       document.querySelector(".contact-form").reset();
     })
@@ -39,7 +39,7 @@ function sendMessage(event) {
 
       message.style.color = "#ef4444";
       message.textContent =
-        "❌ Failed to send your message. Please try again.";
+        "Message failed to sned. Please try again.";
     })
     .finally(() => {
       button.disabled = false;
