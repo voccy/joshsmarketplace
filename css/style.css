@@ -26,7 +26,7 @@ h2 { font-size: clamp(2rem, 4vw, 4rem); line-height: 1.1; letter-spacing: -2px; 
 h3 { font-size: 1.4rem; }
 .logo span, h1 span, h2 span, .price span, .logo span, .project-category, .price-label, .learn-more, .text-link, #form-message { color: var(--accent); }
 .hero-text, .page-hero > p:last-child { color: var(--muted); max-width: 580px; font-size: 1.05rem; }
-.eyebrow, .service-number, .project-image, .project-category, .price-label, .project-price, .contact-link small, footer { font-family: 'DM Mono', monospace; }
+.eyebrow, .service-number, .project-image, .project-category, .price-label, .project-price, .contact-link small, footer { font-family: 'Manrope', monospace; }
 .eyebrow { color: var(--accent); font-size: 0.72rem; letter-spacing: 2px; margin-bottom: 22px; }
 
 
